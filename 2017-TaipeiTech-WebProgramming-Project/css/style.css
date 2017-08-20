@@ -1,0 +1,311 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+html {
+  font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+}
+
+.rune-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.mastery-background {
+  position: relative;
+  background-image: url(../img/mastery/mastery_background.png);
+  width: 985px;
+  height: 508px;
+}
+
+.mastery-icon {
+  position: absolute;
+  cursor: pointer;
+}
+
+.mastery-list-icon {
+  margin: auto;
+}
+
+.mastery-icon-rect {
+  background: url(../img/mastery/mastery_icon0.png);
+  width: 42px;
+  height: 42px;
+}
+
+.mastery-icon-circ {
+  background: url(../img/mastery/mastery_icon1.png);
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.parallax-img img {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.button-collapse {
+  color: #009688 !important;
+}
+
+.header h1 {
+  font-size: 3rem;
+  line-height: 300px;
+  color: #b6f3ed;
+}
+
+nav .brand-logo img{
+  padding-top: 5px;
+  width: 150px;
+  height: 60px;
+}
+
+.side-nav li a {
+  color: #fff;
+}
+
+.hide-on-med-and-down li {
+  width: 93px;
+}
+
+.hide-on-med-and-down li a {
+  text-align: center;
+}
+
+.brand-logo{
+  font-family: 'Carrois Gothic SC', sans-serif;
+    font-weight: bold;
+}
+
+.icon-block .light,.game .light, footer li{
+  font-size: 17px;
+}
+
+.parallax-container h5 {
+  font-weight: normal;
+  font-size: 32px;
+}
+
+.cyan-green {
+    background-color: #009688 !important;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.side-nav {
+  background-color: #26a69a;
+}
+
+.side-nav li a {
+  font-weight: normal;
+}
+
+.chp-path{
+  padding: 5px;
+  margin-top: 25px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.chp-path a {
+  transition: background-color s.3s;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.list-con {
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.list-con a {
+  font-size: 18px;
+  color: #2abbae !important;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.chp-path{
+  padding:5px;
+  margin-top:25px;
+  border-bottom-color: black;
+  border-bottom-style:solid;
+  border-bottom-width: 1px;
+
+}
+.cho-path a{
+  margin-left:5px;
+  margin-right: 5px;
+  font-size:14px;
+}
+
+.chp-path span{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size:14px;
+}
+.chp-sort{
+  padding:25px;
+  margin-top:20px;
+  margin-bottom:30px;
+  margin-right: 15px;
+  padding:6px 10px 5px 10px;
+  border-color: rgb(239,239,239);
+  border-style:solid;
+  border-width: 1px;
+}
+.chp-sort label{
+  padding-left: 25px;
+  margin-left: 0px;
+  margin-right: 10px;
+  font-size:14px;
+  color:black;
+}
+.chp-bbbox{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.chp-bbbox span{
+  font-size:20px;
+}
+.chp-chp span{
+  font-size:14px;
+  margin-left:45px;
+  text-align:center;
+}
+.story{
+  margin-top:20px;
+  border-color:gray;
+  border-style:solid;
+  border-width: 3px;
+}
+.story-title{
+    background-color: black;
+    text-align: center;
+    
+}
+.story-title span{
+    color:white;
+    font-weight:bold;
+    font-size: 32px;
+    
+}
+.story-contain{
+  margin-top:30px;
+  margin-left:30px;
+  margin-right:30px;
+  margin-bottom: 30px;
+  
+  color:black;
+}
+.story-text{
+  margin-top:10px;
+}
+.story-contain span{
+  font-size:16px;
+  text-align: justify;
+}
+.skill{
+  margin-top:20px;
+  border-color:gray;
+  border-style:solid;
+  border-width: 3px;
+}
+.skill-contain{
+  margin-top:10px;
+  margin-bottom: 10px;
+  border-color: rgb(239,239,239);
+  border-style:solid;
+  border-width: 1px;
+}
+.skill-title{
+    background-color: black;
+    text-align: center;
+}    
+.skill-title span{
+    color:white;
+    font-weight:bold;
+    font-size: 32px;
+    
+}
+.skill-list{
+  margin:10px;
+}
+.skill-img{
+  margin-top:10px;
+  margin-left:10px;
+  margin-bottom:5px;
+  text-align: left;
+}
+.skill-name{
+  font-size: 20px;
+  margin:5px;
+  margin-left:10px;
+  text-align: left;
+}
+.skill-text{
+  margin-top:5px;
+  padding-left:10px;
+}
+.skill-name p{
+  margin:0px;
+}
